@@ -1,0 +1,129 @@
+.Hangman {
+  width: 400px;
+  color: black;
+  text-align: center;
+  zoom: 1.3;
+} 
+
+.Hangman .green {
+  font-size: 30px;
+  color: green;
+  font-weight: 700;
+}
+
+.Hangman img {
+  border: 10px solid white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.27),
+    0 0 40px rgba(0, 0, 0, 0.06) inset;
+  height: 250px ;
+}
+
+.Hangman h1 {
+  font-size: 3.5rem;
+  font-weight: 100;
+  margin-bottom: 0.1em;
+  margin-top: 0;
+}
+
+.Hangman-word {
+  letter-spacing: 1em;
+  margin: 0.4em -1em 0.2em 0;
+  font-size: 2rem;
+  transition: all ease 0.3s;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.Hangman-word:hover {
+  background-color: #ff9800;
+  
+}
+
+.Hangman-btns {
+  text-align: center;
+  display: inline-block;
+  width: 250px;
+  margin-top: 0;
+}
+
+.Hangman button {
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 30px;
+  margin: 5px 2px 2px 2px;
+  letter-spacing: 1px;
+  outline: none;
+  background: #ffc107;
+  color: #fff;
+  box-shadow: 0 6px #ff9800;
+  border-radius: 5px;
+  padding-top: 4px;
+  transition: all ease 0.3s;
+}
+
+#button {
+  width: 300px;
+  height: 50px;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px 2px 2px 2px;
+  letter-spacing: 1px;
+  outline: none;
+  background: #ffc107;
+  color: #fff;
+  box-shadow: 0 6px #ff9800;
+  border-radius: 5px;
+  padding-top: 4px;
+  margin-bottom: 20px;
+  transition: all ease 0.3s;
+}
+
+#button:hover {
+  background-color: #3da167;
+  box-shadow: 0 6px #296e46;
+  transform: scale(1.1);
+}
+
+.Hangman button:hover {
+  background-color: #ff9800;
+  background-color: #3da167;
+  box-shadow: 0 6px #296e46;
+  transform: scale(1.2);
+}
+
+.Hangman button:disabled {
+  background: #bdbdbd;
+  color: #eeeeee;
+  box-shadow: 0 6px #9e9e9e;
+}
+
+.guess-wrong{
+  cursor: context-menu;
+  transition: all ease 0.4s;
+}
+
+.Hangman-btns .red{
+  font-size: 30px;
+  color: red;
+  font-weight: 700;
+}
+
+.guess-wrong .red{
+  color: red;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.guess-wrong .green{
+  color: green;
+  font-weight: 700;
+}
+
+.guess-wrong:hover{
+  background-color: lightsteelblue;
+  border-radius: 10px;
+}
